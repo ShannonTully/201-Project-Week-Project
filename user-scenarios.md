@@ -1,6 +1,5 @@
 # user scenarios
 
-
 ## MVP
 as a user I want to be able to review the week 1 quizzes.
 
@@ -16,10 +15,7 @@ as a developer we want an about us page, so we meet the requirements of this pro
 
 as a developer I want to provide resources on that day's content. so student can learn.
 
-
-
-
-
+as a developer I want to provides quizzes, so the students can test their knowledge.
 
 
 ## Stretch goals
