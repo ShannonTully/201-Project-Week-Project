@@ -21,3 +21,5 @@ as a developer I want to only show content for the correct day of the week, so w
 as a Teacher/TA you can supply help to a student that is in need, so they can excel.
 
 as a Teacher/TA you can supply stretch goals to students, to expand a students knowledge base.
+
+as a student I want some food and health recommendations based on the mood level.

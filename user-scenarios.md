@@ -34,6 +34,8 @@ as a student I want to give direct feedback on if a topic troubles me, so I can 
 
 as a student I want to be able to have a one on one, so I can excel in the class.
 
+as a student I want some food and health recommendations based on the mood level.
+
 as a developer I want the page to be scalable, so it can be used on any device.
 
 as a developer I want a clean look to the site, so it avoid unneeded clutter.
