@@ -1,4 +1,11 @@
-## User Stories
+# user scenarios
+
+
+## MVP
+
+
+
+
 
 as a user I want to be able to review the week 1 quizzes.
 
@@ -21,3 +28,7 @@ as a developer I want to only show content for the correct day of the week, so w
 as a Teacher/TA you can supply help to a student that is in need, so they can excel.
 
 as a Teacher/TA you can supply stretch goals to students, to expand a students knowledge base.
+
+
+
+## Stretch goals
