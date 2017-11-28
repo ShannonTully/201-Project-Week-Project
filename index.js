@@ -20,6 +20,7 @@ var loginForm = {
   persist: function(index) {
     var string = JSON.stringify(users[index]);
     localStorage.setItem('user' + index, string);
+    localStorage.setItem('current', string);
     loginForm.changeForm();
   },
 
@@ -72,6 +73,7 @@ var dayMoodForm = {
   persist: function(index) {
     var string = JSON.stringify(users[index]);
     localStorage.setItem('user' + index, string);
+    localStorage.setItem('current', string);
     for(var i in users) {
       if(users[i].username === username) {
         if(users[i].mood === 'mood-3') {
