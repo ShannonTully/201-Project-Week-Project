@@ -3,6 +3,7 @@
 var mainEl = document.getElementById('main');
 var dayMoodEl = document.getElementById('day-mood');
 var users = [];
+var username;
 
 function User(username, password) {
   this.username = username;
@@ -31,7 +32,7 @@ var loginForm = {
   loginSubmit: function(event) {
     event.preventDefault();
 
-    var username = event.target.username.value.toLowerCase();
+    username = event.target.username.value.toLowerCase();
     var password = event.target.password.value.toLowerCase();
     console.log(username, password);
 
@@ -59,9 +60,27 @@ var dayMoodForm = {
 
   dayMoodSubmit: function(event) {
     event.preventDefault();
-    var day = event.target.day.value;
-    var mood = event.target.mood.value;
-    console.log(day,mood);
+    for(var i in users) {
+      if(users[i].username === username) {
+        users[i].mood = event.target.mood.value;
+        users[i].day = event.target.day.value;
+        dayMoodForm.persist(i);
+        break;
+      }
+    }
+  },
+  persist: function(index) {
+    var string = JSON.stringify(users[index]);
+    localStorage.setItem('user' + index, string);
+    for(var i in users) {
+      if(users[i].username === username) {
+        if(users[i].mood === 'mood-3') {
+          window.location.replace('file:///C:/Users/uafre/codefellows/201/project/201-Project-Week-Project/resource.html');
+        } else {
+          window.location.replace('file:///C:/Users/uafre/codefellows/201/project/201-Project-Week-Project/quiz.html');
+        }
+      }
+    }
   },
 };
 
