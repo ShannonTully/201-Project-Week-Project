@@ -19,7 +19,7 @@ console.log('aboutTeam array: ', aboutTeam);
 
 var clickCount = 0;
 //var lhButton = document.getElementById('left-button');
-//BUTTON IS NOT FUNCTIONAL YET
+//BUTTON IS NOT FUNCTIONAL YET  
 
 var bioInfoEl = document.getElementById('bio');
 
