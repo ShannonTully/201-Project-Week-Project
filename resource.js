@@ -1,6 +1,13 @@
 'use strict';
 
-var daySelector = 5;
+var dayNum;
+var user;
+(function() {
+  user = JSON.parse(localStorage.getItem('current'));
+  dayNum = parseInt(user.day.slice(-1));
+})();
+
+var daySelector = dayNum;
 console.log('day', daySelector);
 
 var mainEl = document.getElementById('main');
