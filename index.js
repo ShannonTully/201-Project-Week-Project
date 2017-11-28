@@ -8,11 +8,22 @@ function User(username, password) {
   users.push(this);
 }
 
+(function() {
+  var localUsers = [];
+  for(var i = 0; i < 99; i++) {
+    if(localStorage.getItem('user' + i)) {
+      localUsers.push(JSON.parse(localStorage.getItem('user' + i)));
+    }
+  }
+  users = localUsers;
+})();
+
 var loginForm = {
   formEl: document.getElementById('login-form'),
 
   persist: function(index) {
-    
+    var string = JSON.stringify(users[index]);
+    localStorage.setItem('user' + index, string);
   },
 
   loginSubmit: function(event) {
@@ -26,14 +37,13 @@ var loginForm = {
     for(var i in users) {
       if(users[i].username === username) {
         contains = true;
-        var user = i;
-        loginForm.persist(user);
+        loginForm.persist(i);
         break;
       }
     }
     if(contains === false) {
       var user = new User(username, password);
-      loginForm.persist(users[users.length - 1]);
+      loginForm.persist(users.length - 1);
     }
   }
 };
