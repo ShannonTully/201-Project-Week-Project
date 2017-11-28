@@ -1,19 +1,40 @@
 'use strict';
 
-var days = [];
+var daySelector = 5;
+console.log('day', daySelector);
 
-function Days(resource1, resource2, resource3) {
-  this.resource1 = resource1;
-  this.resource2 = resource2;
-  this.resource3 = resource3;
-  days.push(this);
-}
+var mainEl = document.getElementById('main');
+console.log('mainEl', mainEl);
 
-var Day1 = new Days('https://www.codefellows.org/','https://www.codefellows.org/','https://www.codefellows.org/');
-var Day2 = new Days('https://www.codefellows.org/','https://www.codefellows.org/','https://www.codefellows.org/');
-var Day3 = new Days('https://www.codefellows.org/','https://www.codefellows.org/','https://www.codefellows.org/');
-var Day4 = new Days('https://www.codefellows.org/','https://www.codefellows.org/','https://www.codefellows.org/');
-var Day5 = new Days('https://www.codefellows.org/','https://www.codefellows.org/','https://www.codefellows.org/');
-console.log('days array', days);
+var day1El = document.getElementById('day1-resource');
+console.log('day1El', day1El);
+var day2El = document.getElementById('day2-resource');
+console.log('day2El', day2El);
+var day3El = document.getElementById('day3-resource');
+console.log('day3El', day3El);
+var day4El= document.getElementById('day4-resource');
+console.log('day4El', day4El);
+var day5El = document.getElementById('day5-resource');
+console.log('day5El', day5El);
 
-var daySelector = ['1','2','3','4','5'];
+var daySelectorResource = function () {
+  if (daySelector === 1) {
+    mainEl.removeChild(day2El);
+    mainEl.removeChild(day3El);
+    mainEl.removeChild(day4El);
+    mainEl.removeChild(day5El);
+  }
+  else if (daySelector === 2) {
+    mainEl.removeChild(day3El);
+    mainEl.removeChild(day4El);
+    mainEl.removeChild(day5El);
+  } else if (daySelector === 3) {
+    mainEl.removeChild(day4El
+    );
+    mainEl.removeChild(day5El);
+  } else if (daySelector === 4) {
+    mainEl.removeChild(day5El);
+  }
+};
+daySelectorResource();
+console.log(daySelectorResource);
