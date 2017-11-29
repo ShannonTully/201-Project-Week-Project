@@ -16,7 +16,7 @@
           <li class="nav-links"><a href="about-us.html">about us</a></li>
     </header>
     <main id="main">
-      <form id="form"> <!--quiz type -->
+      <form id="form">
         <select name="options">
           <option id="single-day" value="single-day">Single Day</option>
           <option id="full-review"value="full-review">Full Review</option>
@@ -154,39 +154,6 @@
         <label for="a4">click</label>
         <button type="submit" name="submit">SUBMIT</button>
       </form>
-      <section id="day2">
-        <p id="q1">The elements we need to put inside of a form are: input, button and _____?</p>
-        <ol>
-          <li id="wrong1">submit</li>
-          <li id="right2">label</li>
-          <li id="wrong3">legend</li>
-          <li id="wrong4">click</li>
-        </ol>
-        <p id="q2">A function ____________ loads before any code is executed.</p>
-        <ol>
-          <li id="wrong1">return</li>
-          <li id="right2">declaration</li>
-          <li id="wrong3">expression</li>
-          <li id="wrong4">invocation</li>
-        </ol>
-        <p id="q3">What is the error in the following JavaScript code, assuming that there is a button in the corresponding HTML with an ID of "pugbomb":
-          var pugbombButton = document.getElementById('pugbomb'); pugbombButton.addEventListener('click', pugbombButtonHandler());
-          function pugbombButtonHandler() {   alert('PUGBOMB!!!!'); }
-        </p>
-        <ol>
-          <li id="wrong1">The event listener will not work because the handler function is defined later in the code</li>
-          <li id="wrong2">The last closing curly brace at the end of the excerpt needs a semicolon</li>
-          <li id="right3">The handler function is being called inside of the event listener</li>
-          <li id="wrong4">The name of the JS variable 'pugbombButton' and the HTML ID 'pugbomb' must be the exact same for the event handler to work correctly</li>
-        </ol>
-        <p id="q4">A function __________ loads only when the interpreter reaches that line of code.</p>
-        <ol>
-          <li class="wrong" id="q4d2a1">return</li>
-          <li class="wrong" id="q4d2a2">invocation</li>
-          <li class="right" id="q4d2a3">expression</li>
-          <li class="wrong" id="q4d2a4">declaration</li>
-        </ol>
-      </section>
       <form id="q2d2">
         <p>A function ____________ loads before any code is executed.</p>
         <input id="incorrect" type="radio" name="answer" value="a1">
@@ -199,8 +166,6 @@
         <label for="a4">invocation</label>
         <button type="submit" name="submit">SUBMIT</button>
       </form>
-      <section id="q2d2-section">
-      </section>
       <form id="q3d2">
         <p>What is the error in the following JavaScript code, assuming that there is a button in the corresponding HTML with an ID of "pugbomb":
           var pugbombButton = document.getElementById('pugbomb'); pugbombButton.addEventListener('click', pugbombButtonHandler());
@@ -228,8 +193,6 @@
         <label for="a4">declaration</label>
         <button type="submit" name="submit">SUBMIT</button>
       </form>
-      <section id="q4d2-section">
-      </section>
       <form id="q5d2">
         <p>In the following code which line shows the conflicting code from your working branch?
             1    <<<<<<<<<<< HEAD
@@ -248,27 +211,6 @@
         <label for="a4">Line 4</label>
         <button type="submit" name="submit">SUBMIT</button>
       </form>
-      <section id="q4d2-section">
-        <p>In the following code which line shows the conflicting code from your working branch?
-
-            1    <<<<<<<<<<< HEAD
-
-            2    &lt;h1 &gt;Code Fellows&lt;/h1&gt;
-
-            3    ===========
-
-            4    &lt;p&gt;Code Fellows&lt;/p&gt;
-
-            5    >>>>>>>>>>> master
-
-        </p>
-        <ol>
-          <li id="wrong1">Line 1</li>
-          <li id="right2">Line 2</li>
-          <li id="wrong3">Line 3</li>
-          <li id="wrong4">Line 4</li>
-        </ol>
-      </section>
       <form id="q6d2">
         <p>What property is used to change the text color of an element?</p>
         <input id="correct" type="radio" name="answer" value="a1">
@@ -281,15 +223,6 @@
         <label for="a4">fontcolor</label>
         <button type="submit" name="submit">SUBMIT</button>
       </form>
-      <section id="q7d2-section">
-        <p>What property is used to change the text color of an element?</p>
-        <ol>
-          <li id="right1">color</li>
-          <li id="wrong2">textcolor</li>
-          <li id="wrong3">fontcolor</li>
-          <li id="wrong4">font-color</li>
-        </ol>
-      </section>
       <form id="q7d2">
         <p>Given the following code what style should be applied to make the images stack vertically?
           &lt;section class=”isenguard”&gt;
@@ -308,22 +241,6 @@
         <label for="a4">.isenguard{display:block;}</label>
         <button type="submit" name="submit">SUBMIT</button>
       </form>
-      <section id="q7d2-section">
-        <p>Given the following code what style should be applied to make the images stack vertically?
-          &lt;section class=”isenguard”&gt;
-            &lt;img class=”lotr” src=”orcsWithAxes.gif” alt=”Chopping Down Trees”&gt;
-            &lt;img class=”lotr” src=”treeBeard.png” alt=”Stomping on Orcs”&gt;
-            &lt;img class=”lotr” src=”riverDam.jpg” alt=”Dam breaking”&gt;
-          &lt;/section&gt;
-        </p>
-        <ol>
-          <li id="wrong">.lotr{display:block;}</li>
-          <li id="wrong">.isenguard{display:inline;}</li>
-          <li id="wrong">#lotr{display:block;}</li>
-          <li id="wrong">.isenguard{display:block;}</li>
-        </ol>
-      </section>
-
       <form id="q8d2">
         <p>The _____ property allows you to add properties and methods to objects with the same constructor function</p>
         <input id="correct" type="radio" name="answer" value="a1">
@@ -867,6 +784,173 @@
             <li class="wrong" id="d1q10a2">wizardsOfMiddleEarth;</li>
             <li class="right" id="d1q10a3">wizardsOfMiddleEarth();</li>
             <li class="wrong" id="d1q10a4">wizardsOfMiddleEarth()</li>
+          </ol>
+        </section>
+        <section id="day2">
+          <p id="q1">The elements we need to put inside of a form are: input, button and _____?</p>
+          <ol>
+            <li class="wrong" id="d2q1a1">submit</li>
+            <li class="right" id="d2q1a2">label</li>
+            <li class="wrong" id="d2q1a3">legend</li>
+            <li class="wrong" id="d2q1a4">click</li>
+          </ol>
+          <p id="q2">A function ____________ loads before any code is executed.</p>
+          <ol>
+            <li class="wrong" id="d2q2a1">return</li>
+            <li class="right" id="d2q2a2">declaration</li>
+            <li class="wrong" id="d2q2a3">expression</li>
+            <li class="wrong" id="d2q2a4">invocation</li>
+          </ol>
+          <p id="q3">What is the error in the following JavaScript code, assuming that there is a button in the corresponding HTML with an ID of "pugbomb":
+            var pugbombButton = document.getElementById('pugbomb'); pugbombButton.addEventListener('click', pugbombButtonHandler());
+            function pugbombButtonHandler() {   alert('PUGBOMB!!!!'); }
+          </p>
+          <ol>
+            <li class="wrong" id="d2q3a1">The event listener will not work because the handler function is defined later in the code</li>
+            <li class="wrong" id="d2q3a2">The last closing curly brace at the end of the excerpt needs a semicolon</li>
+            <li class="right" id="d2q3a3">The handler function is being called inside of the event listener</li>
+            <li class="wrong" id="d2q3a4">The name of the JS variable 'pugbombButton' and the HTML ID 'pugbomb' must be the exact same for the event handler to work correctly</li>
+          </ol>
+          <p id="q4">A function __________ loads only when the interpreter reaches that line of code.</p>
+          <ol>
+            <li class="wrong" id="d2q4a1">return</li>
+            <li class="wrong" id="d2q4a2">invocation</li>
+            <li class="right" id="d2q4a3">expression</li>
+            <li class="wrong" id="d2q4a4">declaration</li>
+          </ol>
+          <p id="q5">In the following code which line shows the conflicting code from your working branch?
+
+              1    <<<<<<<<<<< HEAD
+
+              2    &lt;h1 &gt;Code Fellows&lt;/h1&gt;
+
+              3    ===========
+
+              4    &lt;p&gt;Code Fellows&lt;/p&gt;
+
+              5    >>>>>>>>>>> master
+
+          </p>
+          <ol>
+            <li class="wrong"id="d2q5a1">Line 1</li>
+            <li class="right"id="d2q5a2">Line 2</li>
+            <li class="wrong"id="d2q5a3">Line 3</li>
+            <li class="wrong"id="d2q5a4">Line 4</li>
+          </ol>
+          <p id="q6">What property is used to change the text color of an element?</p>
+          <ol>
+            <li class="right"id="d2q6a1">color</li>
+            <li class="wrong"id="d2q6a2">textcolor</li>
+            <li class="wrong"id="d2q6a3">fontcolor</li>
+            <li class="wrong"id="d2q6a4">font-color</li>
+          </ol>
+          <p id="q7">Given the following code what style should be applied to make the images stack vertically?
+            &lt;section class=”isenguard”&gt;
+              &lt;img class=”lotr” src=”orcsWithAxes.gif” alt=”Chopping Down Trees”&gt;
+              &lt;img class=”lotr” src=”treeBeard.png” alt=”Stomping on Orcs”&gt;
+              &lt;img class=”lotr” src=”riverDam.jpg” alt=”Dam breaking”&gt;
+            &lt;/section&gt;
+          </p>
+          <ol>
+            <li class="wrong"id="d2q7a1">.lotr{display:block;}</li>
+            <li class="wrong"id="d2q7a2">.isenguard{display:inline;}</li>
+            <li class="wrong"id="d2q7a3">#lotr{display:block;}</li>
+            <li class="wrong"id="d2q7a4">.isenguard{display:block;}</li>
+          </ol>
+          <p id="q8">The _____ property allows you to add properties and methods to objects with the same constructor function</p>
+          <ol>
+            <li class="wrong" id="d2q8a1">property</li>
+            <li class="right" id="d2q8a2">function</li>
+            <li class="wrong" id="d2q8a3">Function</li>
+            <li class="wrong" id="d2q8a4">aFluxCapacitor</li>
+          </ol>
+          <p>To add rows to your tables, use which tags?</p>
+          <ol>
+            <li class="wrong" id="d2q9a1">&lt; cr &gt; & &lt; /cr &gt;</li>
+            <li class="right" id="d2q9a2">&lt; tr &gt; & &lt; /tr &gt;</li>
+            <li class="wrong" id="d2q9a3">&lt; td &gt; & &lt; /td &gt;</li>
+            <li class="wrong" id="d2q9a4">&lt; th &gt; & &lt; /th &gt;</li>
+          </ol>
+          <p id="q10">Increasing the cellpadding value will what?</p>
+          <ol>
+            <li class="right" id="d2q7a3">Increase the distance between cell and content</li>
+            <li class="wrong" id="d2q7a3">Increase the space between cells</li>
+            <li class="wrong" id="d2q7a3">Increase the softness of your site</li>
+            <li class="wrong" id="d2q7a3">Increase the border width</li>
+          </ol>
+        </section>
+        <section id="day3">
+          <p id="Q1">What can we attach to DOM elements to respond to events in the system?</p>
+          <ol>
+            <li class="wrong" id="d3q1a1">Event Handlers</li>
+            <li class="right" id="d3q1a2">Event Listeners</li>
+            <li class="wrong" id="d3q1a3">Event Processors</li>
+            <li class="wrong" id="d3q1a4">Event Coordinators</li>
+          </ol>
+          <p id="Q2">What method do we use to create an event listener?</p>
+          <ol>
+            <li class="wrong" id="d3q2a1">element.makeEventListener()</li>
+            <li class="wrong" id="d3q2a2">element.listen()</li>
+            <li class="wrong" id="d3q2a3">element.on()</li>
+            <li class="right" id="d3q2a4">element.addEventListener</li>
+          </ol>
+          <p id="q3">A form label element:</p>
+          <ol>
+            <li class="right" id="d3q3a1">extends mouse functionality for clickable input to the label text.</li>
+            <li class="wrong" id="d3q3a2">causes the label text to appear more prominently in the rendered page.</li>
+            <li class="wrong" id="d3q3a3">can only be located next to the form field it is associated with.</li>
+            <li class="wrong" id="d3q3a4">allows the visitor to provide a label for information being entered.</li>
+          </ol>
+          <p id="q4">The items for selection in a form menu are defined using which tag?</p>
+          <ol>
+            <li class="wrong" id="d3q4a1">li</li>
+            <li class="right" id="d3q4a2">option</li>
+            <li class="wrong" id="d3q4a3">select</li>
+            <li class="wrong" id="d3q4a4">menuitem</li>
+          </ol>
+          <p id="q5">Why is the event.preventDefault() command used?</p>
+          <ol>
+            <li class="right" id="d3q4a1">To prevent the setting of default data values in the database.</li>
+            <li class="wrong" id="d3q4a2">To prevent the execution of default actions in response to an event trigger.</li>
+            <li class="wrong" id="d3q4a3">To enforce the submission of a form.</li>
+            <li class="wrong" id="d3q4a4">To stop execution of all code.</li>
+          </ol>
+          <p id="Q6">Which event trigger indicates the DOM has finished loading and processing?</p>
+          <ol>
+            <li class="right" id="d3q6a1">DOMContentLoaded</li>
+            <li class="wrong" id="d3q6a2">DOMReady</li>
+            <li class="wrong" id="d3q6a3">DOMFinished</li>
+            <li class="wrong" id="d3q6a4">DocumentReady</li>
+          </ol>
+          <p id="Q7">The name attribute of a form input field:</p>
+          <ol>
+            <li class="wrong" id="d3q7a1"> identifies the data item when the form is submitted to the server.</li>
+            <li class="wrong" id="d3q7a2">must be unique within the form.</li>
+            <li class="wrong" id="d3q7a3">allows the item to be accessed via JavaScript.</li>
+            <li class="right" id="d3q7a4">all the above.</li>
+          </ol>
+          <p id="Q8">The following example uses what type of function to handle an event?
+          element.addEventListener('click', function(event){});
+          </p>
+          <ol>
+            <li class="wrong" id="d3q8a1">named function</li>
+            <li class="right" id="d3q8a2">anonymous function</li>
+            <li class="wrong" id="d3q8a3">inline function</li>
+            <li class="wrong" id="d3q8a4">arrow function</li>
+          </ol>
+          <p id="Q9">What property on the event object contains the DOM object that invoked the event?</p>
+          <ol>
+            <li class="wrong" id="d3q9a1">element.source</li>
+            <li class="wrong" id="d3q9a2">event.element</li>
+            <li class="right" id="d3q9a3">event.target</li>
+            <li class="wrong" id="d3q9a4">event.invoker</li>
+          </ol>
+          <p id="Q10">Inside the for loop, what name is used to refer to each individual button element?</p>
+          <ol>
+            <li class="wrong" id="d3q10a1">saveButtons[]</li>
+            <li class="wrong" id="d3q10a2">button</li>
+            <li class="wrong" id="d3q10a3">event</li>
+            <li class="wrong" id="d3q10a4">undefined</li>
           </ol>
         </section>
     </main>
