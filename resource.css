@@ -1,0 +1,47 @@
+
+body {
+  background-color: black;
+}
+.hweeklogo {
+height: auto;
+width: 250px;
+position: absolute;
+}
+
+#main {
+  font-size: 25px;
+position: absolute;
+  font-family: 'PT Sans', sans-serif;
+  position: absolute;
+  margin-left: 345px;
+  margin-top: 250px;
+  color: red;
+  padding-top: 40px;
+
+}
+
+h1 {
+font-family: 'Metal Mania', cursive;
+text-align: center;
+font-size: 100px;
+position: absolute;
+margin-left: 375px;
+top: 12px;
+color: red;
+text-shadow: 2px 0 0#ffff00, -2px 0 0#ffff00, 0 2px 0#ffff00, 0 -2px 0#ffff00, 1px 1px#ffff00, -1px -1px 0#ffff00, 1px -1px 0#ffff00, -1px 1px 0#ffff00;
+
+}
+
+
+  #hwbkground {
+position: absolute;
+width: 1375px;
+height: 275px;
+  }
+
+  a {
+    color: red;
+  }
+a:hover {
+  color: orange;
+}
