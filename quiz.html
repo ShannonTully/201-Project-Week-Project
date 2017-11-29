@@ -796,7 +796,7 @@
         <button type="submit" name="submit">SUBMIT</button>
       </form>
       <section id="day1">
-        <p id=q1>'What does Math.floor() do?</p>
+        <p id="q1">'What does Math.floor() do?</p>
         <ol>
           <li class="right" id="d1q1a1">It truncates the decimal value from a floating-point number </li>
           <li class="wrong" id="d1q1a2">It generates decimal numbers of the number digits that are passed in as an argument </li>
@@ -866,6 +866,149 @@
             <li class="wrong" id="d1q10a2">wizardsOfMiddleEarth;</li>
             <li class="right" id="d1q10a3">wizardsOfMiddleEarth();</li>
             <li class="wrong" id="d1q10a4">wizardsOfMiddleEarth()</li>
+          </ol>
+        </section>
+        <section id="day5">
+          <p id="q1">'Your classmate has an account on GitHub, with a username of "naman14". She has a repository called "Timber". In order to download the "Timber" Git repository on your local machine for the first time, you would issue which of following Git commands</p>
+          <ol>
+            <li class="wrong" id="d5q1a1">git init https://github.com/naman14/Timber.git</li>
+            <li class="right" id="d5q1a2">git clone https://github.com/naman14/Timber.git</li>
+            <li class="wrong" id="d5q1a3">git pull origin https://github.com/naman14/Timber.git</li>
+            <li class="wrong" id="d5q1a4">git merge https://github.com/naman14/Timber.git</li>
+          </ol>
+          <p id="q2">Consider the following HTML code:
+           &lt;!DOCTYPE HTML/&gt;
+            &lt;html/&gt;
+              &lt;head/&gt;
+                &lt;title/&gt;Movie Review&lt;title/&gt;
+                  &lt;head/&gt;
+                  &lt;body/&gt;
+                    &lt;div/&gt;
+                      &lt;h1/&gt;Brief Review: &lt;cite/&gt;John Doe&lt;cite/&gt;&lt;h1/&gt;
+                      &lt;p/&gt;Detailed Review by Alison&lt;p/&gt;
+                    &lt;div/&gt;
+                    &lt;div/&gt;
+                      &lt;h2/&gt;The
+                       Best Movie &lt;em&gt;EVER&lt;em&gt;&lt;h2&gt;
+                      &lt;p&gt;The movie &lt;cite&gt;New Movie&lt;/cite&gt; was the best action movie ever produced!!&lt;p&gt;
+                    &lt;div&gt;
+                  &lt;body&gt;
+                &lt;html&gt;
+          Which of the following CSS declarations will change the color of text inside all &lt;cite&gt; tags to red?</p>
+          <ol>
+            <li class="right" id="d5q2a1">cite {color: red}</li>
+            <li class="wrong" id="d5q2a2">p cite {color: red}</li>
+            <li class="wrong" id="d5q2a3">.cite {color: red}</li>
+            <li class="wrong" id="d5q2a4">div .cite {color: red}</li>
+          </ol>
+          <p id="q3">'Consider the following CSS declaration:
+                h1{
+                  border-width:
+                  5px;
+                  border: dashed blue;
+                  }
+            After adding the CSS properties listed above, what will be the rendered width of the border around an &lt;h1&gt; ?</p>
+          <ol>
+            <li class="right" id="d5q3a1">medium</li>
+            <li class="wrong" id="d5q3a2">dashed</li>
+            <li class="wrong" id="d5q3a3">thick</li>
+            <li class="wrong" id="d5q3a4">blue</li>
+          </ol>
+          <p id="q4">Which of the following statements about the CSS float property are true?\
+            A. The CSS "float" property affects the layout of elements in a page\
+            B. Content flows down the right side of a left-floated box\
+            C. Adding a "float" CSS property allows an element to be positioned outside its containing element\
+            D. "float" CSS property can have pixel values such as "10px" or string values such as "left", "right"\
+            E. "clear" CSS property can prevent content from trying to flow around or alongside a floated element</p>
+          <ol>
+            <li class="wrong" id="d5q4a1">A, B, C, D & E</li>
+            <li class="right" id="d5q4a2">A, B & E</li>
+            <li class="wrong" id="d5q4a3">C & E</li>
+            <li class="wrong" id="d5q4a4">B, C & D</li>
+          </ol>
+          <p id="q5">Which of the following best describes fixed positioning?</p>
+          <ol>
+            <li class="wrong" id="d5q5a1">Relative to the box\'s original location, the box is offset by a certain distance</li>
+            <li class="wrong" id="d5q5a2">The box is placed relative to its containing box</li>
+            <li class="wrong" id="d5q5a3">Subsequent text is flowed around the positioned box, according to the box\'s new left or right location</li>
+            <li class="right" id="d5q5a4">The box is held in the same location even if the page is scrolled</li>
+          </ol>
+          <p id="q6">Which of following statements are true about absolute positioning?
+            A. Absolute positioning lets you determine an element’s location by specifying a left, right, top, or bottom position in pixels, ems, or percentages
+            B. Adding the following CSS properties to an element will always make it show up on top left corner of an HTML page
+                 {
+                   position: absolute;
+                   top: 0px;
+                   left: 0px;
+                 }
+            C. When using absolute positioning, an element is taken out of normal flow and is positioned in relation to its containing element
+            D. There is no difference between "position:absolute" and "position:fixd" CSS properties</p>
+          <ol>
+            <li class="wrong" id="d5q6a1">B, C & D</li>
+            <li class="wrong" id="d5q6a2">A, B, C & D</li>
+            <li class="right" id="d5q6a3">A & C</li>
+            <li class="wrong" id="d5q6a4">A, C & D</li>
+          </ol>
+          <p id="q7">Which of the following statements would evaluate as truthy, given the below variable definitions?
+          var dog = {
+            breed: "Beagle",
+            weight: 30,
+            group: "Hound"
+          }
+          var key = "weight";
+          A. dog[key] === 30
+          B. dog["weight"] == "30";
+          C. "weight" in dog
+          D. dog.weight
+          E. dog.key === 30;
+          F. dog.hasOwnProperty('weight');</p>
+          <ol>
+            <li class="right" id="d5q7a1">A, B, C, D & F</li>
+            <li class="wrong" id="d5q7a2">B & C</li>
+            <li class="wrong" id="d5q7a3">A, C, & E</li>
+            <li class="wrong" id="d5q7a4">All of the above</li>
+          </ol>
+          <p id="q8">Consider the following JavaScript objects:
+                var john = new Object();
+                john.name = "John Doe";
+                john.age = 30;
+                  var henry = {
+                    name: "Henry",
+                    age: 24 };
+
+          Which of the following statements best describes the two objects above?</p>
+          <ol>
+            <li class="wrong" id="d5q8a1">Only john is an object and can have additional properties added to it</li>
+            <li class="wrong" id="d5q8a2">Only henry is an object and can have additional properties added to it</li>
+            <li class="right" id="d5q8a3">Both john and henry are valid objects and can have additional properties added to them</li>
+            <li class="wrong" id="d5q8a4">Both john and henry are valid objects, however only henry can have additional properties added to it</li>
+          </ol>
+          <p id="q9">Consider the following JavaScript code and pick the statement that best describes    the code:  \
+            function Dog (name, age) {
+            this.name = name;
+            this.age = age;
+            }
+            var ageDiff = function(dog1, dog2) {
+            return Math.abs(dog1.age - dog2.age);
+            }
+             ageDiff(new Dog("Sparky", 12), new Dog("Molly", 8));</p>
+          <ol>
+            <li class="wrong" id="d5q9a1">JavaScript engine will create two Dog objects but won\'t assign values to their properties while calling function ageDiff</li>
+            <li class="wrong" id="d5q9a2">Since objects can not be passed as parameters, the JavaScript engine will just take age variables, 12 and 8, to calculate age difference and no object will be create</li>
+            <li class="right" id="d5q9a3">The JavaScript engine will create two Dog objects, then pass them as arguments to function ageDiff</li>
+            <li class="wrong" id="d5q9a4">The JavaScript engine will call the function ageDiff first,then create two Dog objects to calculate the age difference</li>
+          </ol>
+          <p id="q10">Which of the following is true about JavaScript object properties?
+            A. All properties are automatically public and can be accessed through "." operation
+            B. All properties are automatically private but may be accessed by using ‘prototype’ ''
+            C. Variables declared inside constructor functions are private and cannot be directly accessed as properties
+            D. Variables declared inside constructor functions are globally scoped
+            E. Properties that contain boolean values may not be accessed with bracket notation and are only accessible through “.” operation</p>
+          <ol>
+            <li class="wrong" id="d5q10a1">D, C, & E</li>
+            <li class="wrong" id="d5q10a2">A & D</li>
+            <li class="right" id="d5q10a3">A & C</li>
+            <li class="wrong" id="d5q10a4">B, C, D & E</li>
           </ol>
         </section>
     </main>
