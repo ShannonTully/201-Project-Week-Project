@@ -1,0 +1,41 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+body {
+  background-color: Solid white;
+}
+.hweeklogo {
+height: auto;
+width: 250px;
+position: absolute;
+}
+.logo {
+  width: auto;
+  height: 150px;
+  margin-left: 1015px;
+  margin-top: -75px;
+  position: relative;
+}
+
+#main {
+  font-size: 25px;
+position: absolute;
+  font-family: 'PT Sans', sans-serif;
+  position: absolute;
+  margin-left: 345px;
+  margin-top: 250px;
+
+}
+
+h1 {
+font-family: 'Metal Mania', cursive;
+text-align: center;
+font-size: 100px;
+position: absolute;
+margin-left: 350px;
+}
+
+#usersub {
+    position: relative;
+    bottom: -70px;
+    left: -320px;
+}
