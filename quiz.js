@@ -2,6 +2,7 @@
 
 var user;
 var dayNum;
+var dayNumFull = 1;
 var mainEl = document.getElementById('main');
 var done = false;
 var selanswr;
@@ -42,12 +43,6 @@ function showQuestion(day, qNum){
   //wait();
 }
 
-// function wait() {
-//   if(done === false) {
-//     window.setTimeout(wait, 100);
-//   }
-// }
-
 function recordAnswer(event) {
   event.preventDefault();
 
@@ -71,6 +66,45 @@ function recordAnswer(event) {
 function single() {
   questionCounter = 1;
   showQuestion(dayNum, 1);
+}
+
+function recordAnswerFull(event) {
+  event.preventDefault();
+
+  done = true;
+  if(event.target.answer.value === 'a1') {
+    selanswr = 1;
+  } else if (event.target.answer.value === 'a2') {
+    selanswr = 2;
+  } else if(event.target.answer.value === 'a3') {
+    selanswr = 3;
+  } else if(event.target.answer.value === 'a4') {
+    selanswr = 4;
+  }
+  event.target.style.display = 'none';
+  if(dayNumFull <= dayNum){
+    questionCounter++;
+    if(questionCounter <= 10) {
+      showQuestionFull(dayNumFull, questionCounter);
+    } else if(dayNumFull < 5) {
+      dayNumFull++;
+      questionCounter = 1;
+      showQuestionFull(dayNumFull, questionCounter);
+    }
+  }
+}
+
+function showQuestionFull(day, qNum){
+  var tempStr = String('q' + qNum +'d' + day);
+  var temp = document.getElementById(tempStr);
+  temp.style.display = 'block';
+  temp.addEventListener('submit', recordAnswerFull);
+  //wait();
+}
+
+function full() {
+  questionCounter = 1;
+  showQuestionFull(1, 1);
 }
 
 var formEl = document.getElementById('form');
