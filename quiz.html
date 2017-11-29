@@ -24,8 +24,594 @@
         </select>
         <button type="submit" id="answerbutton" name="submit">Submit</button>
       </form>
-      <form id="qz">
 
+      <form id="q1d1">
+        <p>'What does Math.floor() do?</p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1">It truncates the decimal values from a floating point number</label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2">It generates decimal numbers of the number digits that are passed in as an argument</label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3">It picks a random number and attaches it to the prototype</label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4">It takes a decimal and invokes it up to the next higher integer value</label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q2d1">
+        <p>When used inside of an object, this refers to:</p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1">The object that it is used in</label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2">Any variable that is declared either immediately before or immediately after the use of this</label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3">The block of code following this</label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4">The function concatenation that it is used inside of</label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q3d1">
+        <p>var rabbit = {};  This line of code creates an object by using:</p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1">Cascading prototypal inheritance</label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2">A constructor function</label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3">Object literal notation</label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4">Properties and methods</label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q4d1">
+        <p>In the line of code var turtle = newAnimal("Michelangelo",1); "Michelangelo" and 1 are:</p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1">Function expressions</label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2">Variables</label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3">Arguments</label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4">Instantiations</label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q5d1">
+        <p>What is the term we use for a function that is associated with (or, attached to) an object?</p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1">A method</label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2">An instance</label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3">An ability</label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4">An action</label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q6d1">
+        <p>What does DOM stand for?</p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1">Distribution of Methods</label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2">Domain Oriented Manipulation</label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3">Document Object Model</label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4">Direct Object-oriented Maintenance</label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q7d1">
+        <p>True/false: An object is a collection of properties and methods</p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1">True</label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2">False</label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q8d1">
+        <p>True/false: Figuring out your problem domain should only be done after you start writing code; otherwise you do not know whether the code actually works</p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1">True</label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2">False</label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q9d1">
+        <p>True/false: Javascript cannot be used to manipulate HTML elements; it is only used in web applications to solve arithmetic calculations.</p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1">True</label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2">False</label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q10d1">
+        <p>Which is the correct way to invoke the wizardsOfMiddleEarth function. <br> function wizardsOfMiddleEarth() {   <br> this.gray = "Gandalf";   <br> this.white = "Saurumon";   <br> this.brown = "Radaghast";   <br>this.blue = ["Alatar", "Pallando"];   <br> return this.gray + this.white + this.brown + this.blue[0] + this.blue [1]; }</p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1">new wizardsOfMiddleEarth();</label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2">wizardsOfMiddleEarth;</label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3">wizardsOfMiddleEarth();</label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4">wizardsOfMiddleEarth()</label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q1d2">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q2d2">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q3d2">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q4d2">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q5d2">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q6d2">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q7d2">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q8d2">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q9d2">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q10d2">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q1d3">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q2d3">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q3d3">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q4d3">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q5d3">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q6d3">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q7d3">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q8d3">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q9d3">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q10d3">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q1d4">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q2d4">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q3d4">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q4d4">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q5d4">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q6d4">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q7d4">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q8d4">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q9d4">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q10d4">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q1d5">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q2d5">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q3d5">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q4d5">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q5d5">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q6d5">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q7d5">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q8d5">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q9d5">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
+      </form>
+      <form id="q10d5">
+        <p></p>
+        <input id="wrong" type="radio" name="a1" value="a1">
+        <label for="a1"></label>
+        <input id="wrong" type="radio" name="a2" value="a2">
+        <label for="a2"></label>
+        <input id="wrong" type="radio" name="a3" value="a3">
+        <label for="a3"></label>
+        <input id="wrong" type="radio" name="a4" value="a4">
+        <label for="a4"></label>
+        <button type="submit" name="submit">SUBMIT</button>
       </form>
     </main>
     <footer>
