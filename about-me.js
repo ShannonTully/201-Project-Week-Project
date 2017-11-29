@@ -12,7 +12,7 @@ function AboutPerson(name, url, bioText) {
 //objects
 var shannon= new AboutPerson('Shannon', 'http://via.placeholder.com/150x150', 'Hi, my name is Shannon, and this is my bio. I have a cat and his name is Mr. Kittycat Meowface. I go to school at Code Fellows. I have two roommates and they both work at Pikes Place Market for a produce vender.');
 var koko = new AboutPerson('Koko', 'http://via.placeholder.com/150x150', 'This is Koko\'s bio');
-var skylar = new AboutPerson('Skylar', 'http://via.placeholder.com/150x150', 'This is Skylar\'s bio');
+var skylar = new AboutPerson('Skyler', 'http://via.placeholder.com/150x150', 'My name is Skyler Williams, I graduated High school 2 years ago, and during that time I was always interested in the tech field, both hardware and software wise. Now I\'m a student here at Code Fellows.');
 var josh = new AboutPerson('Josh', 'http://via.placeholder.com/150x150', 'This is Josh\'s bio');
 console.log('aboutTeam array: ', aboutTeam);
 
