@@ -1,21 +1,14 @@
 html, body {margin: 0; height: 100%; overflow: hidden}
 
 body {
-  background-color: Solid white;
+  background-color: black;
 }
 .hweeklogo {
 height: auto;
 width: 250px;
 position: absolute;
+im2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
-.logo {
-  width: auto;
-  height: 150px;
-  margin-left: 1015px;
-  margin-top: -75px;
-  position: relative;
-}
-
 #main {
   font-size: 25px;
 position: absolute;
@@ -23,6 +16,8 @@ position: absolute;
   position: absolute;
   margin-left: 345px;
   margin-top: 250px;
+  color: red;
+  padding-top: 40px;
 
 }
 
@@ -31,7 +26,10 @@ font-family: 'Metal Mania', cursive;
 text-align: center;
 font-size: 100px;
 position: absolute;
-margin-left: 350px;
+margin-left: 475px;
+top: 12px;
+color: red;
+text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
 #usersub {
@@ -39,3 +37,28 @@ margin-left: 350px;
     bottom: -70px;
     left: -320px;
 }
+
+button {
+      padding:5px;
+      border:2px solid #ccc;
+      border-color:#333;
+      padding:5px 15px;
+      background:#ccc;
+      border:0 none;
+      cursor:pointer;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      font-family: 'PT Sans', sans-serif;
+      font-weight: bolder;
+
+  }
+  button:hover {
+    background-color: white;
+      color: red;
+  }
+
+  #hwbkground {
+position: absolute;
+width: 1375px;
+height: 275px;
+  }
