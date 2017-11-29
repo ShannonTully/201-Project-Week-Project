@@ -35,9 +35,9 @@ function results(){
   for(var i = 1; i <= 5; i++) {
     for(var j = 1; j <= 10; j++) {
       for(var l = 1; l <= 4; l++) {
-        var tempStr = String('q' + j +'d' + i + 'a' + l);
-        var temp = document.getElementById(tempStr).class;
-        document.getElementById(tempStr).class = temp + ' selected';
+        var tempStr = String('d' + i + 'q' + j + 'a' + l);
+        var temp = document.getElementById(tempStr).className;
+        document.getElementById(tempStr).className = temp + ' selected';
       }
     }
   }
