@@ -77,9 +77,9 @@ var dayMoodForm = {
     for(var i in users) {
       if(users[i].username === username) {
         if(users[i].mood === 'mood-3') {
-          window.location.replace('file:///C:/Users/uafre/codefellows/201/project/201-Project-Week-Project/resource.html');
+          window.location.replace('resource.html');
         } else {
-          window.location.replace('file:///C:/Users/uafre/codefellows/201/project/201-Project-Week-Project/quiz.html');
+          window.location.replace('quiz.html');
         }
       }
     }
