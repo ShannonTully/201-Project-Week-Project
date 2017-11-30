@@ -24,7 +24,6 @@ var questionCounter = 1;
 
 (function() {
   for(var i = 1; i <= 5; i++) {
-    debugger;
     var tempStr = String('day' + i);
     document.getElementById(tempStr).style.display = 'none';
   }
@@ -35,8 +34,11 @@ function results(){
     for(var j = 1; j <= 10; j++) {
       for(var l = 1; l <= 4; l++) {
         var tempStr = String('d' + i + 'q' + j + 'a' + l);
-        var temp = document.getElementById(tempStr).className;
-        document.getElementById(tempStr).className = temp + ' selected';
+        var temp = [];
+        temp.push(document.getElementById(tempStr));
+        var tempEl = document.getElementById(tempStr);
+        var classTemp = temp[0].className;
+        tempEl.className = classTemp + ' selected';
       }
     }
   }
@@ -46,12 +48,13 @@ function results(){
 
   var mainEl = document.getElementById('main');
   console.log('mainEl', mainEl);
+  //debugger;
 
-  var day1El = document.getElementById('d1');
-  var day2El = document.getElementById('d2');
-  var day3El = document.getElementById('d3');
-  var day4El= document.getElementById('d4');
-  var day5El = document.getElementById('d5');
+  var day1El = document.getElementById('day1');
+  var day2El = document.getElementById('day2');
+  var day3El = document.getElementById('day3');
+  var day4El= document.getElementById('day4');
+  var day5El = document.getElementById('day5');
 
   if (daySelector === 1) {
     day1El.style.display = 'block';
