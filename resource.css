@@ -28,11 +28,11 @@ nav > ul > li {
   text-decoration: underline;
 }
 ul {
-  list-style-type: none;
+
 }
 h1 {
   font-family: 'Metal Mania', cursive;
-  margin-left: 130px;
+  margin-left: 165px;
   font-size: 5.5em;
   position: absolute;
   top: 0px;
@@ -54,6 +54,7 @@ main {
   text-align: left 15px;
   padding-left: 10%;
   font-size: 24px;
+  column-count: 3;
 }
 
 h3 {
@@ -64,7 +65,7 @@ a {
     color: black;
 }
 a:hover {
-  color: black;
+  color: yellow;
 }
 a:link {
   text-decoration: underline;
@@ -86,3 +87,18 @@ footer {
    height:60px;   /* Height of the footer */
    background:#980000;
 }
+
+#noshow {
+list-style: none;
+}
+
+#day-of-week
+{
+  display: inline;
+  float: right;
+}
+
+.navlinks{
+  margin-left: 25px;
+  margin-right: 20px;
+  }
