@@ -53,4 +53,25 @@ button {
 
 h1{
   font-family: 'Metal Mania', cursive;
+  font-size: 5.5em;
+  position: absolute;
+  top: 0px;
+  color: #700f14;
+  text-shadow: 2px 0 0#FFAE19, -2px 0 0#FFAE19, 0 2px 0#FFAE19, 0 -2px 0#FFAE19, 1px 1px#FFAE19, -1px -1px 0#FFAE19, 1px -1px 0#FFAE19, -1px 1px 0#FFAE19;
+}
+
+a {
+    color: black;
+}
+a:hover {
+  color: yellow;
+}
+a:link {
+  text-decoration: none;
+}
+
+header {
+  background-color: red;
+  z-index: 10000;
+  position: absolute;
 }
