@@ -1,5 +1,19 @@
 'use strict';
 
+var dayNum;
+var user;
+(function() {
+  user = JSON.parse(localStorage.getItem('current'));
+  dayNum = parseInt(user.day.slice(-1));
+})();
+var screenDate = function() {
+  var dateEl = document.getElementById('day-of-week');
+  var pEl = document.createElement('p');
+  pEl.textContent = 'day: ' + dayNum;
+  dateEl.appendChild(pEl);
+};
+screenDate();
+
 var aboutTeam = [];
 //constructor
 function AboutPerson(name, url, bioText) {
