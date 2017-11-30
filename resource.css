@@ -32,7 +32,6 @@ text-shadow: 2px 0 0#ffff00, -2px 0 0#ffff00, 0 2px 0#ffff00, 0 -2px 0#ffff00, 1
 
 }
 
-
   #hwbkground {
 position: absolute;
 width: 1375px;
@@ -44,4 +43,60 @@ height: 275px;
   }
 a:hover {
   color: orange;
+
+}
+a:link {
+text-decoration: none;
+}
+
+#day1-resource {
+  position: relative;
+   column-gap: 40px;
+      column-count: 2;
+    column-gap: 15px;
+      column-rule-style: solid;
+      column-rule-width: 2.1px;
+      column-rule-color: red;
+      padding-bottom: 25px;
+}
+
+#day2-resource {
+  column-gap: 40px;
+     column-count: 2;
+   column-gap: 15px;
+     column-rule-style: solid;
+     column-rule-width: 2.1px;
+     column-rule-color: red;
+     padding-bottom: 25px;
+}
+#day3-resource {
+  column-gap: 40px;
+     column-count: 2;
+   column-gap: 15px;
+     column-rule-style: solid;
+     column-rule-width: 2.1px;
+     column-rule-color: red;
+     padding-bottom: 25px;
+}
+#day4-resource {
+  column-gap: 40px;
+     column-count: 2;
+   column-gap: 15px;
+     column-rule-style: solid;
+     column-rule-width: 2.1px;
+     column-rule-color: red;
+     padding-bottom: 25px;
+}
+#day5-resource {
+  column-gap: 40px;
+     column-count: 2;
+   column-gap: 15px;
+     column-rule-style: solid;
+     column-rule-width: 2.1px;
+     column-rule-color: red;
+     padding-bottom: 25px;
+}
+
+#main {
+
 }
