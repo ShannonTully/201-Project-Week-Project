@@ -22,22 +22,21 @@ var questionCounter = 1;
   }
 })();
 
-// (function() {
-//   for(var i = 1; i <= 5; i++) {
-//     for(var j = 1; j <= 10; j++) {
-//       var tempStr = String('q' + j +'d' + i +'-section');
-//       document.getElementById(tempStr).style.display = 'none';
-//     }
-//   }
-// })();
+(function() {
+  for(var i = 1; i <= 5; i++) {
+    debugger;
+    var tempStr = String('day' + i);
+    document.getElementById(tempStr).style.display = 'none';
+  }
+})();
 
 function results(){
   for(var i = 1; i <= 5; i++) {
     for(var j = 1; j <= 10; j++) {
       for(var l = 1; l <= 4; l++) {
-        var tempStr = String('q' + j +'d' + i + 'a' + l);
-        var temp = document.getElementById(tempStr).class;
-        document.getElementById(tempStr).class = temp + ' selected';
+        var tempStr = String('d' + i + 'q' + j + 'a' + l);
+        var temp = document.getElementById(tempStr).className;
+        document.getElementById(tempStr).className = temp + ' selected';
       }
     }
   }
@@ -75,6 +74,7 @@ function results(){
     day3El.style.display = 'block';
     day4El.style.display = 'block';
     day5El.style.display = 'block';
+  }
 }
 
 function onSubmitQuizType(event) {
