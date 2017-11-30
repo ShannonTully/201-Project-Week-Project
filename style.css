@@ -1,7 +1,7 @@
 /*html, body {margin: 0; height: 100%; overflow: hidden}
 
 body {
-  background-color: black;
+background-color: black;
 }
 .hweeklogo {
 height: auto;
@@ -10,14 +10,14 @@ position: absolute;
 }
 
 #main {
-  font-size: 25px;
+font-size: 25px;
 position: absolute;
-  font-family: 'PT Sans', sans-serif;
-  position: absolute;
-  margin-left: 345px;
-  margin-top: 250px;
-  color: red;
-  padding-top: 40px;
+font-family: 'PT Sans', sans-serif;
+position: absolute;
+margin-left: 345px;
+margin-top: 250px;
+color: red;
+padding-top: 40px;
 
 }
 
@@ -34,100 +34,100 @@ text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #
 }
 
 #usersub {
-    position: relative;
-    bottom: -70px;
-    left: -320px;
+position: relative;
+bottom: -70px;
+left: -320px;
 }
 
 button {
-      padding:5px;
-      border:2px solid #ccc;
-      border-color:#333;
-      padding:5px 15px;
-      background:#ccc;
-      border:0 none;
-      cursor:pointer;
-      -webkit-border-radius: 5px;
-      border-radius: 5px;
-      font-family: 'PT Sans', sans-serif;
-      font-weight: bolder;
-  }
+padding:5px;
+border:2px solid #ccc;
+border-color:#333;
+padding:5px 15px;
+background:#ccc;
+border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+font-family: 'PT Sans', sans-serif;
+font-weight: bolder;
+}
 
-  button:hover {
-    background-color: white;
-      color: red;
-  }
+button:hover {
+background-color: white;
+color: red;
+}
 
-  #hwbkground {
+#hwbkground {
 position: absolute;
 width: 1375px;
 height: 275px;
-  }*/
+}*/
 
-  html {
-    height: 100%;
-    width: 100%;
-    background-image: url(assets/IMG_7497.jpg);
-    background-size: cover;
-  }
-  header {
-    height: 15%
-    position: fixed;
-    background-color: #980000;
-    border: solid 5px black;
-  }
-  .hweeklogo {
-    width: 120px;
-    height: auto;
-    font-size: 140px;
-    margin-bottom: 25px;
-  }
-  nav {
-    text-align: right;
-    position: inherit;
-    left: 1000px;
-    bottom: 485px;
-    background-color: #980000;
-  }
-  nav > ul > li {
-    display: inline-block;
-    padding: 5px;
-    font-size: 24px;
-    text-decoration: underline;
-  }
-  ul {
-    list-style-type: none;
-  }
-  h1 {
-    font-family: 'Metal Mania', cursive;
-    margin-left: 130px;
-    font-size: 5.5em;
-    position: absolute;
-    top: 0px;
-    color: #700f14;
-    text-shadow: 2px 0 0#FFAE19, -2px 0 0#FFAE19, 0 2px 0#FFAE19, 0 -2px 0#FFAE19, 1px 1px#FFAE19, -1px -1px 0#FFAE19, 1px -1px 0#FFAE19, -1px 1px 0#FFAE19;
-  }
-  main {
-    position: relative;
-    margin: 20px;
-  }
-  label,
-  input,
-  select{
-    display: block;
-    padding: 1%;
-    margin: auto;
-  }
-  #login-form,
-  #day-mood{
-    position: relative;
-    background-color: rgba(119, 119, 119, 0.7);
-    border: solid 5px #700f14;
-    padding: 18%;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bolder;
-  }
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(assets/IMG_7497.jpg);
+  background-size: cover;
+}
+header {
+  height: 15%
+  position: fixed;
+  background-color: #980000;
+  border: solid 5px black;
+}
+.hweeklogo {
+  width: 120px;
+  height: auto;
+  font-size: 140px;
+  margin-bottom: 25px;
+}
+nav {
+  text-align: right;
+  position: inherit;
+  left: 1000px;
+  bottom: 485px;
+  background-color: #980000;
+}
+nav > ul > li {
+  display: inline-block;
+  padding: 5px;
+  font-size: 24px;
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  font-family: 'Metal Mania', cursive;
+  margin-left: 130px;
+  font-size: 5.5em;
+  position: absolute;
+  top: 0px;
+  color: #700f14;
+  text-shadow: 2px 0 0#FFAE19, -2px 0 0#FFAE19, 0 2px 0#FFAE19, 0 -2px 0#FFAE19, 1px 1px#FFAE19, -1px -1px 0#FFAE19, 1px -1px 0#FFAE19, -1px 1px 0#FFAE19;
+}
+main {
+  position: relative;
+  margin: 20px;
+}
+label,
+input,
+select{
+  display: block;
+  padding: 1%;
+  margin: auto;
+}
+#login-form,
+#day-mood{
+  position: relative;
+  background-color: rgba(119, 119, 119, 0.7);
+  border: solid 5px #700f14;
+  padding: 18%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bolder;
+}
 button {
   padding:5px;
   border:2px solid #ccc;
@@ -145,49 +145,49 @@ button:hover {
   background-color: white;
   color: red;
 }
-  #day1-resource,
-  #day2-resource,
-  #day3-resource,
-  #day4-resource,
-  #day5-resource {
-    border: solid 5px #700f14;
-    background-color: #777777;
-    text-align: left 15px;
-    padding-left: 10%;
-    font-size: 24px;
-  }
+#day1-resource,
+#day2-resource,
+#day3-resource,
+#day4-resource,
+#day5-resource {
+  border: solid 5px #700f14;
+  background-color: #777777;
+  text-align: left 15px;
+  padding-left: 10%;
+  font-size: 24px;
+}
 
-  h3 {
-    font-size: 32px;
-    margin-left: 10px;
-  }
-  a {
-      color: black;
-  }
-  a:hover {
-    color: black;
-  }
-  a:link {
-    text-decoration: underline;
+h3 {
+  font-size: 32px;
+  margin-left: 10px;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+a:link {
+  text-decoration: underline;
 
-  }
-  aside {
-    position: fixed;
-    right: 2%;
-    top: 35%;
-    background-color: #980000;
-    border: solid 5px black;
-    width: 15%;
-    height: 30%;
-  }
-  footer {
-     position:relative;
-     bottom:0;
-     width:100%;
-     height:60px;   /* Height of the footer */
-     background:#980000;
-  }
+}
+aside {
+  position: fixed;
+  right: 2%;
+  top: 35%;
+  background-color: #980000;
+  border: solid 5px black;
+  width: 15%;
+  height: 30%;
+}
+footer {
+  position:relative;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:#980000;
+}
 
-  form {
-    font-family: 'PT Sans', sans-serif;
-  }
+form {
+  font-family: 'PT Sans', sans-serif;
+}

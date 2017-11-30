@@ -27,7 +27,7 @@ console.log('day5El', day5El);
 var screenDate = function() {
   var dateEl = document.getElementById('day-of-week');
   var pEl = document.createElement('p');
-  pEl.textContent = 'RESOURCES   day: ' + dayNum;
+  pEl.textContent = 'RESOURCES   Day: ' + dayNum;
   dateEl.appendChild(pEl);
 };
 screenDate();

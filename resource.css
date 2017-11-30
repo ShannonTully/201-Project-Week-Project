@@ -68,7 +68,7 @@ a:hover {
   color: yellow;
 }
 a:link {
-  text-decoration: underline;
+  text-decoration: none;
 
 }
 aside {
@@ -102,3 +102,9 @@ list-style: none;
   margin-left: 25px;
   margin-right: 20px;
   }
+
+.footer-names {
+font-family: 'Mrs Sheppards', cursive;
+text-align: center;
+font-size: 17px;
+}
