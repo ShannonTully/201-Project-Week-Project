@@ -24,13 +24,13 @@ console.log('day4El', day4El);
 var day5El = document.getElementById('day5-resource');
 console.log('day5El', day5El);
 
-var screenDate = function() {
-  var dateEl = document.getElementById('day-of-week');
-  var pEl = document.createElement('p');
-  pEl.textContent = 'RESOURCES   day: ' + dayNum;
-  dateEl.appendChild(pEl);
-};
-screenDate();
+// var screenDate = function() {
+//   var dateEl = document.getElementById('day-of-week');
+//   var pEl = document.createElement('p');
+//   pEl.textContent = 'RESOURCES   day: ' + dayNum;
+//   dateEl.appendChild(pEl);
+// };
+//screenDate();
 
 var daySelectorResource = function () {
   if (daySelector === 1) {
