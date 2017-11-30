@@ -5,8 +5,6 @@ html {
   background-size: cover;
 }
 header {
-  height: 15%
-  position: fixed;
   background-color: #980000;
   border: solid 5px black;
 }
@@ -91,14 +89,42 @@ color: red;
 #day2-resource,
 #day3-resource,
 #day4-resource,
-#day5-resource {
+#day5-resource,
+.quiz-form,
+section {
   border: solid 5px #700f14;
   background-color: #777777;
   text-align: left 15px;
   padding-left: 10%;
   font-size: 24px;
 }
+.quiz-form,
+section{
+  margin: auto;
+  text-align: center;
+  padding: 1%;
+}
+ol {
+  border-bottom: solid black 2px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-family: 'PT Sans', sans-serif;
+}
+.right {
+  border: solid green 2px;
+  margin: 5px;
+    text-shadow: 2px 2px 4px #3dc115;
+}
 
+.dontshow {
+  display: none;
+}
+
+.wrong {
+  border: solid red 2px;
+  margin: 5px;
+  text-shadow: 2px 2px 4px #f20707;
+}
 h3 {
   font-size: 32px;
   margin-left: 10px;
@@ -131,4 +157,3 @@ footer {
 #one {
   display: none
 }
-
