@@ -9,7 +9,7 @@ var user;
 var screenDate = function() {
   var dateEl = document.getElementById('day-of-week');
   var pEl = document.createElement('p');
-  pEl.textContent = 'ABOUT US   Xday: ' + dayNum;
+  pEl.textContent = 'ABOUT US   day: ' + dayNum;
   dateEl.appendChild(pEl);
 };
 screenDate();
