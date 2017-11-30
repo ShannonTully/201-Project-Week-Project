@@ -3,6 +3,7 @@ html {
   width: 100%;
   background-image: url(assets/IMG_7497.jpg);
   background-size: cover;
+  font-family: sans-serif: serif;
 }
 header {
   background-color: #980000;
@@ -153,6 +154,9 @@ footer {
    width:100%;
    height:60px;
    background:#980000;
+   font-family: 'Metal Mania', cursive;
+   text-align: center;
+   padding-top: 1%;
 }
 #one {
   display: none
