@@ -80,6 +80,7 @@ height: 275px;
     width: 120px;
     height: auto;
     font-size: 140px;
+    margin-bottom: 25px;
   }
   nav {
     text-align: right;
@@ -185,4 +186,8 @@ button:hover {
      width:100%;
      height:60px;   /* Height of the footer */
      background:#980000;
+  }
+
+  form {
+    font-family: 'PT Sans', sans-serif;
   }
