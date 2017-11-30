@@ -99,6 +99,9 @@ section {
   padding-left: 10%;
   font-size: 24px;
 }
+li {
+  padding: 1%;
+}
 .quiz-form,
 section{
   margin: auto;
