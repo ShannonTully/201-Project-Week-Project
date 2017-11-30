@@ -1,4 +1,4 @@
-html, body {margin: 0; height: 100%; overflow: hidden}
+/*html, body {margin: 0; height: 100%; overflow: hidden}
 
 body {
   background-color: black;
@@ -62,4 +62,93 @@ button {
 position: absolute;
 width: 1375px;
 height: 275px;
+  }*/
+
+  html {
+    height: 100%;
+    width: 100%;
+    background: #cccccc;
+  }
+  header {
+    height: 15%
+    position: fixed;
+    background-color: #980000;
+    border: solid 5px black;
+  }
+  .hweeklogo {
+    width: 120px;
+    height: auto;
+    font-size: 140px;
+  }
+  nav {
+    text-align: right;
+    position: inherit;
+    left: 1000px;
+    bottom: 485px;
+    background-color: #980000;
+  }
+  nav > ul > li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  ul {
+    list-style-type: none;
+  }
+  h1 {
+    font-family: 'Metal Mania', cursive;
+    margin-left: 130px;
+    font-size: 5.5em;
+    position: absolute;
+    top: 0px;
+    color: #700f14;
+    text-shadow: 2px 0 0#FFAE19, -2px 0 0#FFAE19, 0 2px 0#FFAE19, 0 -2px 0#FFAE19, 1px 1px#FFAE19, -1px -1px 0#FFAE19, 1px -1px 0#FFAE19, -1px 1px 0#FFAE19;
+  }
+  main {
+    position: relative;
+    margin: 20px;
+    background-color: #980000;
+  }
+  #day1-resource,
+  #day2-resource,
+  #day3-resource,
+  #day4-resource,
+  #day5-resource {
+    border: solid 5px #700f14;
+    background-color: #777777;
+    text-align: left 15px;
+    padding-left: 10%;
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 32px;
+    margin-left: 10px;
+  }
+  a {
+      color: black;
+  }
+  a:hover {
+    color: black;
+  }
+  a:link {
+    text-decoration: underline;
+
+  }
+  aside {
+    position: fixed;
+    right: 2%;
+    top: 35%;
+    background-color: #980000;
+    border: solid 5px black;
+    width: 15%;
+    height: 30%;
+  }
+  footer {
+     position:relative;
+     bottom:0;
+     width:100%;
+     height:60px;   /* Height of the footer */
+     background:#980000;
   }
