@@ -9,7 +9,7 @@ var user;
 var screenDate = function() {
   var dateEl = document.getElementById('day-of-week');
   var pEl = document.createElement('p');
-  pEl.textContent = 'day: ' + dayNum;
+  pEl.textContent = 'ABOUT US   day: ' + dayNum;
   dateEl.appendChild(pEl);
 };
 screenDate();
@@ -29,7 +29,6 @@ var koko = new AboutPerson('Koko', 'assets/IMG_7510.jpg', 'My name is Kowser Kas
 var skylar = new AboutPerson('Skyler', 'assets/IMG_7507.jpg', 'My name is Skyler Williams, I graduated High school 2 years ago, and during that time I was always interested in the tech field, both hardware and software wise. Now I\'m a student here at Code Fellows.');
 var josh = new AboutPerson('Josh', 'assets/IMG_7509.jpg', 'Hey, I\'m Joshua Fredrickson aka the old guy in the group.  I am a customer focused individual who is always improving , passionate about innovation,and an inventory professional.  My focus is on being a full stack JavaScript Developer.');
 console.log('aboutTeam array: ', aboutTeam);
-
 
 var clickCount = 0;
 var lhButton = document.getElementById('left-button');
