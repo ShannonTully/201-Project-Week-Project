@@ -1,5 +1,19 @@
 'use strict';
 
+var dayNum;
+var user;
+(function() {
+  user = JSON.parse(localStorage.getItem('current'));
+  dayNum = parseInt(user.day.slice(-1));
+})();
+var screenDate = function() {
+  var dateEl = document.getElementById('day-of-week');
+  var pEl = document.createElement('p');
+  pEl.textContent = 'day: ' + dayNum;
+  dateEl.appendChild(pEl);
+};
+screenDate();
+
 var aboutTeam = [];
 //constructor
 function AboutPerson(name, url, bioText) {
@@ -10,10 +24,10 @@ function AboutPerson(name, url, bioText) {
 }
 
 //objects
-var shannon= new AboutPerson('Shannon', 'http://via.placeholder.com/150x150', 'Hi, my name is Shannon, and this is my bio. I have a cat and his name is Mr. Kittycat Meowface. I go to school at Code Fellows. I have two roommates and they both work at Pikes Place Market for a produce vender.');
-var koko = new AboutPerson('Koko', 'http://via.placeholder.com/150x150', 'My name is Kowser Kassa but I’ve gone by “Koko” since childhood. I am 23 years old and a student at Code Fellows. I hope to begin a career as a Full-Stack JavaScript devloper and continue to travel the world. I want to explore as much as I can while encouraging young children of color persue STEM careers.');
-var skylar = new AboutPerson('Skyler', 'http://via.placeholder.com/150x150', 'My name is Skyler Williams, I graduated High school 2 years ago, and during that time I was always interested in the tech field, both hardware and software wise. Now I\'m a student here at Code Fellows.');
-var josh = new AboutPerson('Josh', 'http://via.placeholder.com/150x150', 'Hey, I\'m Joshua Fredrickson aka the old guy in the group.  I am a customer focused individual who is always improving , passionate about innovation,and an inventory professional.  My focus is on being a full stack JavaScript Developer.');
+var shannon= new AboutPerson('Shannon', 'assets/IMG_7503.jpg', 'Hi, my name is Shannon, and this is my bio. I have a cat and his name is Mr. Kittycat Meowface. I go to school at Code Fellows. I have two roommates and they both work at Pikes Place Market for a produce vender.');
+var koko = new AboutPerson('Koko', 'assets/IMG_7510.jpg', 'My name is Kowser Kassa but I’ve gone by “Koko” since childhood. I am 23 years old and a student at Code Fellows. I hope to begin a career as a Full-Stack JavaScript devloper and continue to travel the world. I want to explore as much as I can while encouraging young children of color persue STEM careers.');
+var skylar = new AboutPerson('Skyler', 'assets/IMG_7507.jpg', 'My name is Skyler Williams, I graduated High school 2 years ago, and during that time I was always interested in the tech field, both hardware and software wise. Now I\'m a student here at Code Fellows.');
+var josh = new AboutPerson('Josh', 'assets/IMG_7509.jpg', 'Hey, I\'m Joshua Fredrickson aka the old guy in the group.  I am a customer focused individual who is always improving , passionate about innovation,and an inventory professional.  My focus is on being a full stack JavaScript Developer.');
 console.log('aboutTeam array: ', aboutTeam);
 
 
