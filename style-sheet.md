@@ -1,0 +1,171 @@
+#STRUGGLE WEEK STYLE SHEET
+
+
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(assets/IMG_7497.jpg);
+  background-size: cover;
+  font-family: sans-serif: serif;
+}
+header {
+  background-color: #980000;
+  border: solid 5px black;
+}
+.hweeklogo {
+  width: 120px;
+  height: auto;
+  font-size: 140px;
+}
+nav {
+  text-align: right;
+  position: inherit;
+  left: 1000px;
+  bottom: 485px;
+  background-color: #980000;
+  color: white;
+}
+nav > ul > li {
+  display: inline-block;
+  padding: 5px;
+  font-size: 24px;
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  font-family: 'Metal Mania', cursive;
+  margin-left: 130px;
+  font-size: 5.5em;
+  position: absolute;
+  top: 0px;
+  color: white;
+  text-shadow: 2px 0 0#FFAE19, -2px 0 0#FFAE19, 0 2px 0#FFAE19, 0 -2px 0#FFAE19, 1px 1px#FFAE19, -1px -1px 0#FFAE19, 1px -1px 0#FFAE19, -1px 1px 0#FFAE19;
+}
+main {
+  position: relative;
+  margin: 20px;
+}
+#about-us-info{
+  margin-left: 20%;
+  text-align: center;
+  width: 50%;
+  padding: 5%;
+  border: solid 5px #700f14;
+  background-color: rgba(119, 119, 119, 0.7);
+  color: white;
+}
+label,
+input,
+select{
+  display: block;
+  padding: 1%;
+  margin: auto;
+}
+#login-form,
+#day-mood{
+  position: relative;
+  background-color: rgba(119, 119, 119, 0.7);
+  border: solid 5px #700f14;
+  padding: 18%;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-weight: bolder;
+}
+button {
+padding:5px;
+border:2px solid #ccc;
+border-color:#333;
+padding:5px 15px;
+background:#ccc;
+border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+font-family: 'PT Sans', sans-serif;
+font-weight: bolder;
+}
+button:hover {
+background-color: white;
+color: red;
+}
+#day1-resource,
+#day2-resource,
+#day3-resource,
+#day4-resource,
+#day5-resource,
+.quiz-form,
+section {
+  border: solid 5px #700f14;
+  background-color: #777777;
+  text-align: left 15px;
+  padding-left: 10%;
+  font-size: 24px;
+}
+.quiz-form,
+section{
+  margin: auto;
+  text-align: center;
+  padding: 1%;
+}
+ol {
+  border-bottom: solid black 2px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-family: 'PT Sans', sans-serif;
+}
+.right {
+  border: solid green 2px;
+  margin: 5px;
+    text-shadow: 2px 2px 4px #3dc115;
+}
+
+.dontshow {
+  display: none;
+}
+
+.wrong {
+  border: solid red 2px;
+  margin: 5px;
+  text-shadow: 2px 2px 4px #f20707;
+}
+h3 {
+  font-size: 32px;
+  margin-left: 10px;
+  color: white;
+}
+a {
+    color: white;
+}
+a:hover {
+  color: white;
+}
+a:link {
+  text-decoration: underline;
+}
+aside {
+  position: fixed;
+  right: 2%;
+  top: 35%;
+  background-color: #980000;
+  border: solid 5px black;
+  width: 15%;
+  height: 30%;
+  color: white;
+}
+footer {
+   position:relative;
+   bottom:0;
+   width:100%;
+   height:60px;
+   background:#980000;
+   font-family: 'Metal Mania', cursive;
+   text-align: center;
+   padding-top: 1%;
+   color: white;
+}
+#one {
+  display: none
+}
