@@ -1,7 +1,7 @@
 'use strict';
 
 var aboutTeam = [];
-//constructor
+
 function AboutPerson(name, url, bioText) {
   this.aboutName = name;
   this.photoUrl = url;
@@ -9,8 +9,6 @@ function AboutPerson(name, url, bioText) {
   aboutTeam.push(this);
 }
 
-
-//objects
 var shannon= new AboutPerson('Shannon', 'assets/IMG_7503.jpg', 'Hi, my name is Shannon, and this is my bio. I have a cat and his name is Mr. Kittycat Meowface. I go to school at Code Fellows. I have two roommates and they both work at Pikes Place Market for a produce vender.');
 var koko = new AboutPerson('Koko', 'assets/IMG_7510.jpg', 'My name is Kowser Kassa but I’ve gone by “Koko” since childhood. I am 23 years old and a student at Code Fellows. I hope to begin a career as a Full-Stack JavaScript devloper and continue to travel the world. I want to explore as much as I can while encouraging young children of color persue STEM careers.');
 var skylar = new AboutPerson('Skyler', 'assets/IMG_7507.jpg', 'My name is Skyler Williams, I graduated High school 2 years ago, and during that time I was always interested in the tech field, both hardware and software wise. Now I\'m a student here at Code Fellows.');
@@ -90,4 +88,3 @@ function onClickRH() {
 }
 lhButton.addEventListener('click', onClickLH);
 rhButton.addEventListener('click', onClickRH);
-//CREATE A EVENT LISTENER FOR THE "NEXT BUTTON" ALSO CLEAN UP CODE AND REMOVE REPEATS

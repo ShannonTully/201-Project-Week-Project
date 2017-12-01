@@ -48,7 +48,6 @@ function results(){
 
   var mainEl = document.getElementById('main');
   console.log('mainEl', mainEl);
-  //debugger;
 
   var day1El = document.getElementById('day1');
   var day2El = document.getElementById('day2');
